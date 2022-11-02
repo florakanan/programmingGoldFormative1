@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formative Assignment on Student Mental Health</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous"> 
+    <link href="formative.css" rel="stylesheet">
+</head>
+  <body>
+      <!-- link to bootsrap -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+      
+      <ul class="nav justify-content-end">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#mentalHealthFacts">Facts from my dataset</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#moodRating">Questions for you</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#availableHelp">Available resources</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#datasetQuestions">Questions from the dataset</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled">Other Pages</a>
+        </li>
+      </ul>
+
+      <br>
+
+      <h1 id="Top">Student Mental Health</h1>
+      <br>
+      <h4>My data is from this <a href="https://www.kaggle.com/datasets/shariful07/student-mental-health">dataset</a></h4>
+
+      <p>Many students struggle with their mental health whilst studying </p>
+      <p>This webpage aims to provide some useful information and links to help you understand and combat poor mental health and additionally to allow you to check-in with yourself to evaluate how you're doing.</p>
+
+      <hr>
+
+      <div>
+      <h5 id="mentalHealthFacts"> Some interesting facts about Student Mental Health</h5> 
+      
+
+      <p><span style="color: crimson;"> 35% </span> of students answered that they have depression, which is a very high figure compared to the World Health Organization's statement that <span style="color: crimson;"> "5% of adults suffer from depression" </span> globally.</p>
+      <p>Additionally, <span style="color: crimson;"> 34% </span> of students responded that they also suffer from anxiety. Another staggering figure when compared to the World Health Organisation's estimation that <span style="color: crimson;"> 3.6% </span> of the global population suffer with anxiety disorders. <br> 
+        This data is from 2015 as it is the most recent information released by the WHO, so following events such as Covid-19 - these figures will likely have increased a bit but it's highly unlikely they have reached the levels of the students on this dataset.  </p>
+      <p>The data also collected that <span style="color: crimson;"> 33% </span> of the students experience panic attacks. Compared to the rough estimation that roughly <span style="color: crimson;"> 4% </span> of US adults have panic attacks at some point in their lives, this is yet another large difference who's relevance is often overlooked.</p>
+      
+
+      </div>
+      <hr>
+      
+      <label for="moodRating" class="formLabel" id="moodRating">How are you feeling today on a scale from 1 to 10 (10 being the best)?</label>
+
+      <br>
+
+      <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+          <label class="form-check-label" for="inlineRadio1">1</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+          <label class="form-check-label" for="inlineRadio2">2</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
+          <label class="form-check-label" for="inlineRadio3">3</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio4" value="option4">
+          <label class="form-check-label" for="inlineRadio4">4</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio5" value="option5">
+          <label class="form-check-label" for="inlineRadio5">5</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio6" value="option6">
+          <label class="form-check-label" for="inlineRadio6">6</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio7" value="option7">
+          <label class="form-check-label" for="inlineRadio7">7</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio8" value="option8">
+          <label class="form-check-label" for="inlineRadio8">8</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio9" value="option9">
+          <label class="form-check-label" for="inlineRadio9">9</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio10" value="option10">
+          <label class="form-check-label" for="inlineRadio10">10</label>
+        </div>
+      
+      <br>
+      <br>
+      
+      <div>
+          <label for="sleepDataList" class="formLabel">How many hours of sleep did you get last night?</label>
+          <input class="form-control" list="sleepOptions" id="sleepDataList" placeholder="Type to search..." style="width: 200px;" style="background-color: cornflowerblue;">
+          <datalist id="sleepOptions">
+              <option value=">10 hours">
+              <option value="8-10 hours">
+              <option value="6-8 hours">
+              <option value="4-6 hours">
+              <option value="<4 hours">
+          </datalist>
+      </div>
+
+      <br>
+
+      <label class="formLabel">Which of the following do you do to relax when you're stressed as a student?</label>
+      <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="relaxCheck">
+          <label class="form-check-label" for="relaxCheck">
+            Listen to music
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="relaxCheck">
+          <label class="form-check-label" for="relaxCheck">
+            Watch a film
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="relaxCheck">
+          <label class="form-check-label" for="relaxCheck">
+            Read a book
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="relaxCheck">
+          <label class="form-check-label" for="relaxCheck">
+            Exercise
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="relaxCheck">
+          <label class="form-check-label" for="relaxCheck">
+            Meditate
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="relaxCheck">
+          <label class="form-check-label" for="relaxCheck">
+            Other (please write below)
+          </label>
+        </div>
+        <div>
+          <input type="text" placeholder="Meet with friends" class="textBox2">
+        </div>
+
+        <br>
+
+        <div class="form-group">
+          <label class="formLabel">What are you working towards today?</label>
+          <textarea class="form-control" id="textarea1" rows="3"></textarea>
+        </div>
+
+        <br>
+
+        <div class="form-group">
+          <label class="formLabel">What are you grateful for today?</label>
+          <textarea class="form-control" id="textarea1" rows="2"></textarea>
+        </div>
+
+        <br>
+
+        <div class="form-group">
+          <label class="formLabel">What is your main goal for the day?</label>
+          <textarea class="form-control" id="textarea1" rows="1"></textarea>
+        </div>
+
+      <br><hr><br>
+
+      <div class="accordion" id="availableHelp">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="accordionNHS">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                NHS website
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="accordionNHS" data-bs-parent="#accordionNHS">
+              <div class="accordion-body">
+                <strong>The NHS website has many useful resources to help in case you are struggling with your mental health.</strong> 
+                <br>
+                <a href="https://www.nhs.uk/nhs-services/mental-health-services/">NHS Mental Health services</a>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="accordionHeadspace">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Headspace
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="accordionHeadspace" data-bs-parent="#accordionHeadspace">
+              <div class="accordion-body">
+                <strong>Headspace is a meditation and mindfulness site</strong> 
+                <br>
+                <a href="https://www.headspace.com">Headspace</a>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="accordionKooth">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Kooth
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="accordionKooth" data-bs-parent="#accordionKooth">
+              <div class="accordion-body">
+                <strong>Kooth is a site which provides "free, safe and anonymous online support and counselling".</strong> 
+                <br>
+                <a href="https://www.kooth.com">Kooth</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <br><hr><br>
+        <div>
+            <h5>Some examples of things you can do to improve your mental health</h5>
+            <p>Go for a walk in a pretty place and take pictures</p>
+            <img src="Sunset.jpg" alt="View of a river at sunset with a tree over it and a french village along the edges" style="width: 378px; height:504px;">
+            <img src="RiverBank.jpg" alt="An overgrown riverbank in France with lots of trees and a boat in the water" style="width: 378px; height:504px;">
+            <img src="pinkFlowers.jpg" alt="pink flowers growing over a wall" style="width: 378px; height:504px;">
+            <br>
+            <br>
+            <p>Play with your pets</p>
+            <img src="ZoeCarrot.jpg" alt="Small fluffy dog with a toy carrot" style="width: 378px; height:504px;">
+            <img src="IslaSquirrel.jpg" alt="A small dog on its back playing with a toy squirrel" style="width: 378px; height:504px;">
+            <img src="MollyRevage.jpg" alt="A fluffy dog with its tongue out on a walk with fields and another dog behind her" style="width: 378px; height:504px;">
+            <br>
+            <br>
+            <p>Listen to music</p>
+            <img src="TS.jpg" alt="Taylor Swift performing on her reputation tour" style="width: 378px; height:504px;"><!-- Link to where I got this image is in the Readme-->
+            <img src="HS.jpg" alt="Harry Styles performing" style="width: 378px; height:504px;"><!-- Link to where I got this image is in the Readme-->
+            <img src="CigarettesAfterSex.jpg" alt="the lead singer from Cigarettes after Sex" style="width: 378px; height:504px;"><!-- Link to where I got this image is in the Readme-->
+
+
+
+        </div>
+        
+        <hr>
+
+        <div>
+            <h5 id="datasetQuestions"> Fill out your details and answer the questions below to give your answers to the dataset questions</h5>
+            <br>
+            <label for="firstName" class="formLabel" id="personalDetails"> First Name</label><br>
+            <input type="text" id="firstName" name="firstName" placeholder="John" class="textBox1"><br>
+            <label for="lastName" class="formLabel"> Last Name</label><br>
+            <input type="text" id="lastName" name="lastName" placeholder="Smith" class="textBox1"><br>
+            <label for="studentID" class="formLabel"> Student ID</label><br>
+            <input type="text" id="studentID" name="studentID" placeholder="001234567" class="textBox1"><br>
+            <br>
+            <br>
+
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="surveyFemale" id="surveyRadio9">
+              <label class="form-check-label" for="surveyRadio9">
+                Female
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="surveyMale" id="surveyRadio10">
+              <label class="form-check-label" for="surveyRadio10">
+                Male
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="surveyOther" id="surveyRadio11" checked>
+              <label class="form-check-label" for="surveyRadio11">
+                Other/ Prefer not to answer
+              </label>
+            </div>
+
+            <br>
+
+            <div>
+              <input type="text" placeholder="How old are you?" class="textBox3">
+            </div>
+
+            <br>
+
+            <div>
+              <input type="text" placeholder="What course do you study?" class="textBox3">
+            </div>
+
+            <br>
+
+            <div>
+              <input type="text" placeholder="What year are you in?" class="textBox3">
+            </div>
+
+            <br>
+
+            <div>
+              <input type="text" placeholder="What is your CGPA?" class="textBox3">
+            </div>
+
+            <br>
+
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="surveyMarried" id="surveyRadio7">
+              <label class="form-check-label" for="surveyRadio7">
+                I am married
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="surveyNotMarried" id="surveyRadio8" checked>
+              <label class="form-check-label" for="surveyRadio8">
+                I am not married
+              </label>
+            </div>
+
+            <br>
+
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="surveyDepressed" id="surveyRadio1">
+              <label class="form-check-label" for="surveyRadio1">
+                I do have depression
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="surveyNotDepressed" id="surveyRadio2" checked>
+              <label class="form-check-label" for="surveyRadio2">
+                I do not have depression
+              </label>
+            </div>
+
+            <br>
+
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="surveyAnxious" id="surveyRadio3">
+              <label class="form-check-label" for="surveyRadio3">
+                I do have anxiety
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="surveyNotAnxious" id="surveyRadio4" checked>
+              <label class="form-check-label" for="surveyRadio4">
+                I do not have anxiety
+              </label>
+            </div>
+
+            <br>
+
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="surveyPanic" id="surveyRadio5">
+              <label class="form-check-label" for="surveyRadio5">
+                I do have panic attacks
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="surveyNotPanic" id="surveyRadio6" checked>
+              <label class="form-check-label" for="surveyRadio6">
+                I do not have panic attacks
+              </label>
+            </div>
+
+            <br>
+
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+        <br>
+        <button type="button" class="btn btn-info" ><a href="#Top" >Back to the Top</a></button>
+  </body>
+</html>
